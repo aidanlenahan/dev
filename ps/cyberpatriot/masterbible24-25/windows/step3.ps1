@@ -3,9 +3,9 @@
 
 # Define the diagnostics file path
 $scriptPath = $MyInvocation.MyCommand.Path
-$diagnosticsFile = Join-Path (Split-Path $scriptPath) "diagnostics.txt"
+$diagnosticsFile = Join-Path (Split-Path $scriptPath) "diagnostics3.txt"
 
-# Initialize diagnostics.txt with a header
+# Initialize diagnostics3.txt with a header
 "========== SYSTEM DIAGNOSTICS REPORT ==========" | Out-File $diagnosticsFile
 "Generated on: $(Get-Date)" | Out-File $diagnosticsFile -Append
 "" | Out-File $diagnosticsFile -Append
@@ -28,14 +28,14 @@ if (-not $preferences.DisableRealtimeMonitoring) {
 }
 "" | Out-File $diagnosticsFile -Append
 
-# Print all file shares and output to diagnostics.txt
+# Print all file shares and output to diagnostics3.txt
 Write-Host "Listing all file shares..." -ForegroundColor Cyan
 $smbShares = Get-SmbShare | Format-Table -AutoSize | Out-String
 "=== File Shares ===" | Out-File $diagnosticsFile -Append
 $smbShares | Out-File $diagnosticsFile -Append
 "" | Out-File $diagnosticsFile -Append
 
-# Recursively list all media files from C:\Users and output to diagnostics.txt
+# Recursively list all media files from C:\Users and output to diagnostics3.txt
 Write-Host "Listing media files in C:\Users..." -ForegroundColor Cyan
 $mediaExtensions = "*.mp3", "*.mp4", "*.mov", "*.wav", "*.aac", "*.flac", "*.mkv", "*.png", "*.jpeg", "*.jpg", "*.gif", "*.tiff", "*.bmp", "*.pdf", "*.doc", "*.docx", "*.exe", "*.msi", "*.cmd"
 $mediaFiles = Get-ChildItem -Path C:\Users\* -Recurse -Include $mediaExtensions -ErrorAction SilentlyContinue
@@ -69,5 +69,5 @@ if (-not $unwantedFound) {
 "" | Out-File $diagnosticsFile -Append
 
 # Complete the script
-Write-Host "Script completed. Check 'diagnostics.txt' for results." -ForegroundColor Green
+Write-Host "Script completed. Check 'diagnostics3.txt' for results." -ForegroundColor Green
 "=== Script completed on: $(Get-Date) ===" | Out-File $diagnosticsFile -Append
