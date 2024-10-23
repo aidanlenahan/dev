@@ -75,6 +75,14 @@ This guide provides a step-by-step approach to hardening a Windows CyberPatriot 
 3. **Disable Guest and Administrator Accounts:**
    - Make sure both the **Guest** account and **Administrator** account are disabled.
 
+##### How to execute this script:
+1, **First run the script titled ‘step4.ps1’.** It will create a template file in the same directory called ‘authusers.txt’.
+2. **Use this ChatGPT prompt to format the user list from the readme into the proper format that the script will recognize.**
+3. Paste the readme user list to the bottom of the prompt and **enter it into ChatGPT.**
+4. **Copy ChatGPT’s output and paste it into “authusers.txt”**
+5. **Run the script called ‘step4.ps1’ once more.**
+6. Changes can be seen in ‘diagnostics4.txt’
+
 ---
 
 ## Step 5 - Services
