@@ -37,7 +37,7 @@ https://docs.google.com/document/d/e/2PACX-1vT2zjA8CaPWgSmMfjuAQXL91jd2ioXfFl3J_
 
 ---
 
-## Step 3 - Basic Security
+## [Step 3 - Basic Security](https://raw.githubusercontent.com/aidanlenahan/dev/refs/heads/main/ps/cyberpatriot/masterbible24-25/windows/step3.ps1)
 ### Tasks:
 1. **Enable Firewall:**
    - Ensure the firewall is turned on.
