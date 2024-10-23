@@ -12,7 +12,7 @@ https://docs.google.com/document/d/e/2PACX-1vT2zjA8CaPWgSmMfjuAQXL91jd2ioXfFl3J_
 
 ---
 
-## Step 1 - Initialization
+## [Step 1 - Initialization](https://raw.githubusercontent.com/aidanlenahan/dev/refs/heads/main/ps/cyberpatriot/masterbible24-25/windows/step1.ps1)
 ### Tasks:
 1. **Set Script Execution Policy:**
    - Make `.ps1` scripts executable with the command:
