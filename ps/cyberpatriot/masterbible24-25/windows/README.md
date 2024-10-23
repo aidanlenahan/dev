@@ -66,7 +66,7 @@ This guide provides a step-by-step approach to hardening a Windows CyberPatriot 
 
 ---
 
-## Step 4 - Users and Groups
+## [Step 4 - Users and Groups](https://raw.githubusercontent.com/aidanlenahan/dev/refs/heads/main/ps/cyberpatriot/masterbible24-25/windows/step4.ps1)
 ### Tasks:
 1. **Disable Unauthorized Users:**
    - Use **Computer Management** to disable any unauthorized users.
