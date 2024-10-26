@@ -4,6 +4,8 @@ This guide provides a step-by-step approach to hardening a Windows CyberPatriot 
 
 [Source Document](https://docs.google.com/document/d/e/2PACX-1vT2zjA8CaPWgSmMfjuAQXL91jd2ioXfFl3J_zvzhtXNg7lFbNFENRbakHlqrodOCvrJ8hJ_O5YRnCyt/pub)
 
+---
+
 ## Step 0 - Initial Setup
 ### Tasks:
 - **Create Required Groups:** Set up the necessary user groups.
@@ -46,23 +48,15 @@ This guide provides a step-by-step approach to hardening a Windows CyberPatriot 
 3. **Remove Bad Shares:**
    - Remove any unnecessary network shares (except `ADMIN$`, `IPC$`, and `C$`).
 4. **Remove Unwanted Software:**
-   - Uninstall unnecessary or insecure software such as:
-     - Wireshark
-     - CCleaner
-     - Npcap
-     - PC Cleaner
-     - Network Stumbler
-     - L0phtCrack
-     - JDownloader
-     - Minesweeper or any other games.
+   - Uninstall unnecessary or insecure software, including:
+     - Wireshark, CCleaner, Npcap, PC Cleaner, Network Stumbler, L0phtCrack, JDownloader, Minesweeper, and other games.
 5. **Remove Unwanted Files:**
-   - Remove unnecessary media and document files, including:
+   - Delete unnecessary media and document files, including:
      - Audio/Video: mp3, mp4, mov, wav, aac, flac, mkv
      - Images: png, jpeg, jpg, gif, tiff, bmp
      - Documents: pdf, doc, docx
 6. **Configure In-Browser Security:**
-   - Use the most secure DNS.
-   - Ensure that HTTPS is always used.
+   - Use the most secure DNS and ensure HTTPS is always used.
 
 ---
 
@@ -75,19 +69,39 @@ This guide provides a step-by-step approach to hardening a Windows CyberPatriot 
 3. **Disable Guest and Administrator Accounts:**
    - Make sure both the **Guest** account and **Administrator** account are disabled.
 
-##### How to execute this script:
-1. **First run the script titled ‘step4.ps1’.** It will create a template file in the same directory called ‘authusers.txt’.
-2. **Use this ChatGPT prompt to format the user list from the readme into the proper format that the script will recognize.**
-3. Paste the readme user list to the bottom of the prompt and **enter it into ChatGPT.**
-4. **Copy ChatGPT’s output and paste it into “authusers.txt”**
-5. **Run the script called ‘step4.ps1’ once more.**
-6. Changes can be seen in ‘diagnostics4.txt’
+#### How to Execute This Script:
+1. **Run the script `step4.ps1` first.** It will create a template file named `authusers.txt` in the same directory.
+2. **Format the user list:** Use ChatGPT with the provided prompt to convert the readme user list into the format recognized by the script.
+3. **Copy ChatGPT’s Output to `authusers.txt`.**
+4. **Run `step4.ps1` again** to apply changes.
+5. **Check `diagnostics4.txt`** for updates.
 
 ---
 
 ## Step 5 - Services
 ### Tasks:
-- Manage and disable unnecessary services that may pose security risks.
+- **Disable Unnecessary Services:** Disable the following services:
+  - Remote Registry
+  - Remote Desktop Services
+  - Telephony
+  - FTP (Windows FTP)
+  - SNMP Trap
+  - SMTP
+  - Infrared Monitor Service
+  - Plug and Play
+
+---
+
+## Step 6 - Miscellaneous
+### Tasks:
+1. **Disable All RDP (Remote Desktop Protocol):**
+   - Ensure RDP is disabled to prevent remote access vulnerabilities.
+2. **Check for Open Ports:**
+   - Identify and close any unnecessary open ports.
+3. **Enable Automatic Windows Updates:**
+   - Configure updates through **Group Policy Editor (gpedit.msc)**.
+4. **Apply Windows Security Policies (SecPol):**
+   - Use **MMC** (Microsoft Management Console) to configure security policies with `.inf` files.
 
 ---
 
