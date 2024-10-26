@@ -78,7 +78,7 @@ This guide provides a step-by-step approach to hardening a Windows CyberPatriot 
 
 ---
 
-## Step 5 - Services
+## [Step 5 - Services](https://raw.githubusercontent.com/aidanlenahan/dev/refs/heads/main/ps/cyberpatriot/masterbible24-25/windows/step5.ps1)
 ### Tasks:
 - **Disable Unnecessary Services:** Disable the following services:
   - Remote Registry
@@ -92,7 +92,7 @@ This guide provides a step-by-step approach to hardening a Windows CyberPatriot 
 
 ---
 
-## Step 6 - Miscellaneous
+## [Step 6 - Miscellaneous](https://raw.githubusercontent.com/aidanlenahan/dev/refs/heads/main/ps/cyberpatriot/masterbible24-25/windows/step6.ps1)
 ### Tasks:
 1. **Disable All RDP (Remote Desktop Protocol):**
    - Ensure RDP is disabled to prevent remote access vulnerabilities.
