@@ -1,0 +1,4 @@
+*.h linguist-language=C
+*.c linguist-language=C
+*.html linguist-language=HTML
+c/* linguist-language=C
