@@ -1,0 +1,7 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/bg.jfif","C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/bin/Windows/Content/bg.xnb","TextureProcessor","Texture2DContent",660665,16384085,0.7718186
+"C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/boom.png","C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/bin/Windows/Content/boom.xnb","TextureProcessor","Texture2DContent",173200,997917,0.2239147
+"C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/deathFont.spritefont","C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/bin/Windows/Content/deathFont.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0.3409417
+"C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/enemy.png","C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/bin/Windows/Content/enemy.xnb","TextureProcessor","Texture2DContent",25407,121045,0.192677
+"C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/killFont.spritefont","C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/bin/Windows/Content/killFont.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0.0263705
+"C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/player.png","C:/Users/alenahan26/source/repos/fpsGame2/fpsGame2/Content/bin/Windows/Content/player.xnb","TextureProcessor","Texture2DContent",16647,161689,0.1959084

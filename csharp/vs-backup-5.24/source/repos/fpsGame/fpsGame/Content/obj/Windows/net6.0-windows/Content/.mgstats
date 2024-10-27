@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/alenahan26/source/repos/fpsGame/fpsGame/Content/enemy.png","C:/Users/alenahan26/source/repos/fpsGame/fpsGame/Content/bin/Windows/Content/enemy.xnb","TextureProcessor","Texture2DContent",220393,997965,0.243273
+"C:/Users/alenahan26/source/repos/fpsGame/fpsGame/Content/player.png","C:/Users/alenahan26/source/repos/fpsGame/fpsGame/Content/bin/Windows/Content/player.xnb","TextureProcessor","Texture2DContent",68498,16856085,0.7682411

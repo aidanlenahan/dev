@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/alenahan26/source/repos/flap/flap/Content/bg.png","C:/Users/alenahan26/source/repos/flap/flap/Content/bin/Windows/bg.xnb","TextureProcessor","Texture2DContent",192222,3145813,0.3241625
+"C:/Users/alenahan26/source/repos/flap/flap/Content/downpipe.png","C:/Users/alenahan26/source/repos/flap/flap/Content/bin/Windows/downpipe.xnb","TextureProcessor","Texture2DContent",4317,208885,0.2248103
+"C:/Users/alenahan26/source/repos/flap/flap/Content/uppipe.png","C:/Users/alenahan26/source/repos/flap/flap/Content/bin/Windows/uppipe.xnb","TextureProcessor","Texture2DContent",4320,208885,0.0180517
