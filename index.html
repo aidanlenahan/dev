@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alenahan IT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lora', serif;
+            background-color: #1e1e1e;
+            color: #eaeaea;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            font-family: 'Ubuntu', sans-serif;
+            color: #4caf50;
+        }
+        a {
+            text-decoration: none;
+            color: #4caf50;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #81c784;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 20px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            background-color: #2a2a2a;
+        }
+        .navbar a {
+            margin-right: 20px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .navbar a:hover {
+            color: #81c784;
+        }
+        .header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        .header h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .blog-posts {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .post {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .post:hover {
+            transform: translateY(-10px);
+        }
+        .post h3 {
+            margin-top: 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+            background-color: #2a2a2a;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar container">
+        <div class="logo">
+            <h2>Alenahan Blog</h2>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="header">
+        <h1>Welcome to My Blog</h1>
+        <p>Sharing my thoughts and experiences with technology. Programming, cybersecurity, networking, Linux, selfhosting, and more.</p>
+    </header>
+
+    <div class="container blog-posts">
+        <div class="post">
+            <h3>My take on Cyberpatriot</h3>
+            <p>Sharing my experiences, suggestions, and takeaways of the AFA's Cyberpatriot for the last six years of my life.</p>
+            <a href="./cyberpatriot.html">Read More</a>
+        </div>
+        <div class="post">
+            <h3>Tech Trends 2024</h3>
+            <p>Exploring upcoming trends in the tech industry that could shape the future.</p>
+            <a href="blog-post.html">Read More</a>
+        </div>
+        <div class="post">
+            <h3>Healthy Living Tips</h3>
+            <p>Simple ways to improve your daily health and well-being in the modern world.</p>
+            <a href="blog-post.html">Read More</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 My Blog. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
