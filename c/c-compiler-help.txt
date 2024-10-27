@@ -1,0 +1,12 @@
+1. make your c file using vi or nano
+	example: 'vi hello.c' or 'nano hello.c'
+
+2. save your c file 
+
+3. compile it using 'clang' command
+	example: 'clang hello.c -o hello'
+	this will take the file, 'hello.c', and make a new file in computer-readable binary format called 'hello'
+
+3. run your binary
+	example: './hello'
+

@@ -1,0 +1,48 @@
+// structure - m};
+ultiple data types in one array/var
+
+#include <stdio.h>
+
+struct Student
+{
+	char fname[80];
+	char lname[80];
+	float gpa;
+	int grade;
+	int studentID;
+};
+
+int main(void)
+{
+	struct Student theStudent;
+	struct Student theStudentDB[1200];
+	int choice = 0;
+
+	printf("Welcome to the Student Database!\n");
+
+	while (choice < 3)
+	{
+		printf("1 - Enter Student\n2 - Print Student\n3 - Exit\n Choose one, then press enter: ");
+		scanf("%d", &choice);
+		printf("What is the student's ID? ");
+		scanf("%d", &theStudent.studentID);
+
+		if (choice == 1) //enter a student
+		{	
+			printf("What is the student's first name? ");
+			scanf("%s", &theStudent.fname);
+			printf("\nWhat is the student's last name?\n"); 
+			scanf("%s", &theStudent.lname);
+			printf("\nThe student's name is : %s %s\n\n", theStudent.fname, theStudent.lname);
+			printf("What is their GPA? ");
+			scanf("%f", &theStudent.gpa);
+			//fgets(theStudent.gpa
+		}
+		else if (choice == 2) //print / view a student
+		{
+			//printf("What is the student's ID?
+			//printf("Their GPA is: %f\n", theStudent.gpa);
+		}
+	}
+	return(0);
+}
