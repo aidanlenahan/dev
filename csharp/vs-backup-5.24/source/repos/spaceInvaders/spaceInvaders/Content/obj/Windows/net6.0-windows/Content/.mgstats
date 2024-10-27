@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/alenahan26/source/repos/spaceInvaders/spaceInvaders/Content/death.wav","C:/Users/alenahan26/source/repos/spaceInvaders/spaceInvaders/Content/bin/Windows/Content/death.xnb","SoundEffectProcessor","SoundEffectContent",526284,526177,0.5874477
+"C:/Users/alenahan26/source/repos/spaceInvaders/spaceInvaders/Content/jag.png","C:/Users/alenahan26/source/repos/spaceInvaders/spaceInvaders/Content/bin/Windows/Content/jag.xnb","TextureProcessor","Texture2DContent",312694,999853,0.220198
+"C:/Users/alenahan26/source/repos/spaceInvaders/spaceInvaders/Content/tank.png","C:/Users/alenahan26/source/repos/spaceInvaders/spaceInvaders/Content/bin/Windows/Content/tank.xnb","TextureProcessor","Texture2DContent",31859,120685,0.2073791

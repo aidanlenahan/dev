@@ -1,0 +1,7 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/alenahan26/source/repos/chase/chase/Content/coin.wav","C:/Users/alenahan26/source/repos/chase/chase/Content/bin/Windows/coin.xnb","SoundEffectProcessor","SoundEffectContent",323442,323329,1.2486916
+"C:/Users/alenahan26/source/repos/chase/chase/Content/explosion.wav","C:/Users/alenahan26/source/repos/chase/chase/Content/bin/Windows/explosion.xnb","SoundEffectProcessor","SoundEffectContent",280548,280425,0.5804139
+"C:/Users/alenahan26/source/repos/chase/chase/Content/rbr.png","C:/Users/alenahan26/source/repos/chase/chase/Content/bin/Windows/rbr.xnb","TextureProcessor","Texture2DContent",44066,129685,0.216345
+"C:/Users/alenahan26/source/repos/chase/chase/Content/rfh.png","C:/Users/alenahan26/source/repos/chase/chase/Content/bin/Windows/rfh.xnb","TextureProcessor","Texture2DContent",158050,898789,0.0443026
+"C:/Users/alenahan26/source/repos/chase/chase/Content/scoreFont.spritefont","C:/Users/alenahan26/source/repos/chase/chase/Content/bin/Windows/scoreFont.xnb","FontDescriptionProcessor","SpriteFontContent",2068,70687,0.3559726
+"C:/Users/alenahan26/source/repos/chase/chase/Content/smallFont.spritefont","C:/Users/alenahan26/source/repos/chase/chase/Content/bin/Windows/smallFont.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0.0278559

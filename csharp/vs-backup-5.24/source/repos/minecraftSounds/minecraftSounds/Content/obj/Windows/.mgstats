@@ -1,0 +1,6 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/creeper.wav","C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/bin/Windows/creeper.xnb","SoundEffectProcessor","SoundEffectContent",996632,996521,3.7553256
+"C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/dirt.wav","C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/bin/Windows/dirt.xnb","SoundEffectProcessor","SoundEffectContent",52942,52969,0.4407343
+"C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/doh.wav","C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/bin/Windows/doh.xnb","SoundEffectProcessor","SoundEffectContent",4714,4775,0.5628221
+"C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/villager.wav","C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/bin/Windows/villager.xnb","SoundEffectProcessor","SoundEffectContent",185242,185125,0.450515
+"C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/zombie.wav","C:/Users/alenahan26/source/repos/minecraftSounds/minecraftSounds/Content/bin/Windows/zombie.xnb","SoundEffectProcessor","SoundEffectContent",528522,528409,0.4454424
