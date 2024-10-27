@@ -1,4 +1,0 @@
-Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/alenahan26/source/repos/CollisionFun/CollisionFun/Content/badlilguy.png","C:/Users/alenahan26/source/repos/CollisionFun/CollisionFun/Content/bin/Windows/Content/badlilguy.xnb","TextureProcessor","Texture2DContent",100,1109,0.2041073
-"C:/Users/alenahan26/source/repos/CollisionFun/CollisionFun/Content/death.wav","C:/Users/alenahan26/source/repos/CollisionFun/CollisionFun/Content/bin/Windows/Content/death.xnb","SoundEffectProcessor","SoundEffectContent",526284,526177,2.2490878
-"C:/Users/alenahan26/source/repos/CollisionFun/CollisionFun/Content/lilguy.png","C:/Users/alenahan26/source/repos/CollisionFun/CollisionFun/Content/bin/Windows/Content/lilguy.xnb","TextureProcessor","Texture2DContent",90,1109,0.0178369

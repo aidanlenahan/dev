@@ -1,6 +1,0 @@
-Chase game
-- Borders (adventure/SpriteFun)
-- 2p, .png (CollisionFun)
-	- WASD, arrow keys
-- Collision (CollisionFun)
-- Score (textFun)
