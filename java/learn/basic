@@ -1,0 +1,7 @@
+filename: Hello.java
+
+# once completed, to compile, run:
+javac Hello.java
+
+# once compiled, to run, run:
+java Hello
