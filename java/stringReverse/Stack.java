@@ -1,14 +1,17 @@
+//Aidan Lenahan
+//This file is depended on by Main.java
+
 import java.util.*;
 
 public class Stack 
 {
 	private int stackHeight = 0;
-	// ArrayList goes here
-	ArrayList <Character> list;
-	
+	char mostRecent;
+	ArrayList<Character> revStringStack;
+
 	public Stack()
 	{
-		list = new ArrayList<>();
+		revStringStack = new ArrayList<Character>();
 	}
 	private void printHeight()
 	{
@@ -24,13 +27,16 @@ public class Stack
 	/* Increments stackheight by 1      */
 	public void Push(char theChar)
 	{
-		/* to do */
+		revStringStack.add(theChar);
+		stackHeight++;		
 	}
 
 	/* Pops one character off the stack and returns it */
 	/* Decrements stackHeight by 1                     */
-	public char Pop()
+	public char Pop() //stack log
 	{
-		/* to do */
+		stackHeight--;
+		mostRecent = revStringStack.remove(revStringStack.size() - 1);
+		return mostRecent;
 	}
 }
