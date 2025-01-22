@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Navigation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e1e;
+            color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #4db6ac; /* Teal color */
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #ffffff;
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        .links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .class-container {
+            margin: 0 20px;
+            text-align: center;
+            padding: 15px;
+            background-color: #282828;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            width: 300px;
+        }
+        .class-link {
+            background-color: #333;
+            color: #4db6ac; /* Teal color */
+            border: none;
+            padding: 10px 15px;
+            margin: 10px 5px;
+            font-size: 1em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            display: inline-block;
+        }
+        .class-link:hover {
+            background-color: #444;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Class Navigation</h1>
+        <div class="links">
+            <div class="class-container">
+                <h2>1. Cybersecurity</h2>
+                <a href="https://classroom.google.com/c/NzA4Njk3NzM3NTg2" target="_blank" class="class-link">Classroom</a>
+                <a href="https://link-to-class1-resource2.com" target="_blank" class="class-link">Resource 2</a>
+                <a href="https://link-to-class1-resource3.com" target="_blank" class="class-link">Resource 3</a>
+            </div>
+            <div class="class-container">
+                <h2>2. AP Physics</h2>
+                <a href="https://classroom.google.com/c/NjgxMTk5NjYzNTU4" target="_blank" class="class-link">Classroom</a>
+                <a href="https://apclassroom.collegeboard.org/92/home" target="_blank" class="class-link">AP Classroom</a>
+                <a href="https://link-to-class2-resource3.com" target="_blank" class="class-link">Resource 3</a>
+            </div>
+            <div class="class-container">
+                <h2>3. Honors US History 2</h2>
+                <a href="https://classroom.google.com/c/NzA0MzM4MTkwMDA1" target="_blank" class="class-link">Classroom</a>
+                <a href="https://drive.google.com/drive/folders/1Qxy0Sb5sNdDNrCicwNNlTnNSv_WxewcJ?usp=sharing" target="_blank" class="class-link">Folder</a>
+                <a href="https://link-to-class3-resource3.com" target="_blank" class="class-link">Resource 3</a>
+            </div>
+            <div class="class-container">
+                <h2>4. AP CSA</h2>
+                <a href="https://classroom.google.com/c/NzEwODc0ODk5OTA0" target="_blank" class="class-link">Classroom</a>
+                <a href="https://link-to-class4-resource2.com" target="_blank" class="class-link">Resource 2</a>
+                <a href="https://link-to-class4-resource3.com" target="_blank" class="class-link">Resource 3</a>
+            </div>
+            <div class="class-container">
+                <h2>5. AP Spanish</h2>
+                <a href="https://classroom.google.com/c/NzEwNjc3MzM2OTIz" target="_blank" class="class-link">Classroom</a>
+                <a href="https://drive.google.com/drive/folders/1-1fzQZuLyVOR-luN1BDvVWrNpHvB2qx1?usp=sharing" target="_blank" class="class-link">Folder</a>
+                <a href="https://apclassroom.collegeboard.org/31/home" target="_blank" class="class-link">AP Classroom</a>
+            </div>
+            <div class="class-container">
+                <h2>6. Honors Precalc</h2>
+                <a href="https://classroom.google.com/c/NzA4Njk0MzY4NTE1" target="_blank" class="class-link">Classroom</a>
+                <a href="https://link-to-class6-resource2.com" target="_blank" class="class-link">Resource 2</a>
+                <a href="https://link-to-class6-resource3.com" target="_blank" class="class-link">Resource 3</a>
+            </div>
+            <div class="class-container">
+                <h2>7. AP Lang</h2>
+                <a href="https://classroom.google.com/c/NzA5NjcyODExOTUw" target="_blank" class="class-link">Classroom</a>
+                <a href="https://apclassroom.collegeboard.org/12/home" target="_blank" class="class-link">AP Classroom</a>
+                <a href="https://link-to-class7-resource3.com" target="_blank" class="class-link">Resource 3</a>
+            </div>
+            <div class="class-container">
+                <h2>8. Digital Electronics</h2>
+                <a href="https://classroom.google.com/c/NzEwNTc5MDY0NzQ1" target="_blank" class="class-link">Classroom</a>
+                <a href="https://drive.google.com/drive/folders/1LH7IQ1oM4vPejp4k_GT37ucVCxgCNIS9?usp=sharing" target="_blank" class="class-link">Folder</a>
+                <a href="https://link-to-class8-resource3.com" target="_blank" class="class-link">Resource 3</a>
+            </div>
+	    <div class="class-container">
+                <h2>Other links</h2>
+                <a href="https://chat.openai.com" target="_blank" class="class-link">ChatGPT</a>
+                <a href="https://drive.google.com/drive/folders/1LH7IQ1oM4vPejp4k_GT37ucVCxgCNIS9?usp=sharing" target="_blank" class="class-link">Folder</a>
+                <a href="https://link-to-class8-resource3.com" target="_blank" class="class-link">Resource 3</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Aidan Lenahan - Navigation
+    </footer>
+</body>
+</html>
