@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LAN Devices</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #2e2e2e;
+
+            color: #f4f4f4;
+
+            text-align: center;
+
+            padding: 50px;
+
+        }
+
+        h1 {
+
+            color: #00bcd4;
+
+        }
+
+        table {
+
+            margin: 0 auto;
+
+            border-collapse: collapse;
+
+            width: 80%;
+
+        }
+
+        th, td {
+
+            border: 1px solid #2e2e2e;
+
+            padding: 15px;
+
+            text-align: left;
+
+        }
+
+        th {
+
+            background-color: #4caf50;
+
+            color: white;
+
+        }
+
+        tr:nth-child(even) {
+
+            background-color: #3e3e3e;
+
+        }
+
+        tr:hover {
+
+            background-color: #555;
+
+        }
+
+        a {
+
+            text-decoration: none;
+
+            color: #00bcd4;
+
+        }
+
+        a:hover {
+
+            color: #0097a7;
+
+        }
+
+        button {
+
+            background-color: #4caf50;
+
+            border: none;
+
+            color: white;
+
+            padding: 10px 20px;
+
+            text-align: center;
+
+            text-decoration: none;
+
+            display: inline-block;
+
+            font-size: 16px;
+
+            margin: 4px 2px;
+
+            cursor: pointer;
+
+            border-radius: 12px;
+
+        }
+
+        button:hover {
+
+            background-color: #45a049;
+
+        }
+
+        .arrow {
+
+            cursor: pointer;
+
+            padding-right: 10px;
+
+        }
+
+        .arrow::before {
+
+            content: "▶";
+
+            display: inline-block;
+
+            transition: transform 0.2s;
+
+        }
+
+        .arrow.down::before {
+
+            transform: rotate(90deg);
+
+        }
+
+        .details-content {
+
+            display: none;
+
+            background-color: #444;
+
+            border-radius: 5px;
+
+            padding: 10px;
+
+            color: #fff;
+
+        }
+
+        .details-content p {
+
+            margin: 5px 0;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Local Network Devices</h1>
+
+    <table>
+
+        <tr>
+
+            <th>Hostname</th>
+
+            <th>Device</th>
+
+            <th>IP Address</th>
+
+            <th>Open Ports</th>
+
+            <th>Link</th>
+
+        </tr>
+
+        <tr>
+
+            <td><span class="arrow" onclick="toggleDetails(this)"></span>gateway</td>
+
+            <td>UniFi UCG</td>
+
+            <td>192.168.0.1</td>
+
+            <td>443</td>
+
+            <td><a href="https://192.168.0.1" target="_blank"><button>Admin UI</button></a></td>
+
+        </tr>
+
+        <tr class="details-content">
+
+            <td colspan="5">
+
+                <p><strong>Manufacturer:</strong> Ubiquiti</p>
+
+                <p><strong>RAM:</strong> 3 GB</p>
+
+                <p><strong>Storage:</strong> 16 GB</p>
+
+                <p><strong>CPU:</strong> Quad-core ARM® Cortex®-A53 @ 1.5 GHz</p>
+
+		<p><strong>Default UI User:</strong> admin</p>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td><span class="arrow" onclick="toggleDetails(this)"></span>pihole-1</td>
+
+            <td>LXC 102 (pve)</td>
+
+            <td>192.168.0.2</td>
+
+            <td>22, 80, 443</td>
+
+            <td><a href="http://192.168.0.2/admin" target="_blank"><button>Pi-hole</button></a><a href="http://192.168.0.2" target="_blank"><button>Web server</button></a></td>
+
+        </tr>
+
+        <tr class="details-content">
+
+            <td colspan="5">
+
+                <p><strong>Manufacturer:</strong> Proxmox</p>
+
+                <p><strong>RAM:</strong> 3 GB</p>
+
+                <p><strong>Storage:</strong> 10 GB</p>
+
+                <p><strong>CPU:</strong> 2 vCPUs</p>
+
+		<p><strong>Default UI User:</strong> admin</p>
+
+		<p><strong>Default CLI User:</strong> aidan</p>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td><span class="arrow" onclick="toggleDetails(this)"></span>pve-nuc</td>
+
+            <td>Intel NUC6i3SYH</td>
+
+            <td>192.168.0.3</td>
+
+            <td>22, 8006</td>
+
+            <td><a href="http://192.168.0.3:8006" target="_blank"><button>Proxmox Admin UI</button></a></td>
+
+        </tr>
+
+        <tr class="details-content">
+
+            <td colspan="5">
+
+                <p><strong>Manufacturer:</strong> Intel</p>
+
+                <p><strong>RAM:</strong> 32 GB DDR4 2133Mhz</p>
+
+                <p><strong>Storage:</strong> 1 TB M.2 SSD</p>
+
+                <p><strong>CPU:</strong> Intel Core i3-6100U</p>
+
+		<p><strong>Default UI User:</strong> admin</p>
+
+		<p><strong>Default CLI User:</strong> admin</p>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td><span class="arrow" onclick="toggleDetails(this)"></span>home (pve)</td>
+
+            <td>Dell Precision T5810</td>
+
+            <td>192.168.0.4</td>
+
+            <td>22, 8006</td>
+
+            <td><a href="http://192.168.0.4:8006" target="_blank"><button>Proxmox Admin UI</button></a></td>
+
+        </tr>
+
+        <tr class="details-content">
+
+            <td colspan="5">
+
+                <p><strong>Manufacturer:</strong> Dell</p>
+
+                <p><strong>RAM:</strong> 80 GB DDR4 2133Mhz</p>
+
+                <p><strong>Storage:</strong> 3x1 TB HDD RAID1</p>
+
+                <p><strong>CPU:</strong> Intel Xeon E5-1650 v3</p>
+
+		<p><strong>Default UI User:</strong> admin</p>
+
+		<p><strong>Default CLI User:</strong> admin</p>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td><span class="arrow" onclick="toggleDetails(this)"></span>ubuntu-server</td>
+
+            <td>home (PVE) VM 100</td>
+
+            <td>192.168.0.5</td>
+
+            <td>22, 80</td>
+
+            <td><a href="http://192.168.0.5" target="_blank"><button>Homelab Dashboard</button></a></td>
+
+        </tr>
+
+        <tr class="details-content">
+
+            <td colspan="5">
+
+                <p><strong>Manufacturer:</strong> Custom</p>
+
+                <p><strong>RAM:</strong> 4 GB</p>
+
+                <p><strong>Storage:</strong> 100 GB SSD</p>
+
+                <p><strong>CPU:</strong> 2 vCPUs</p>
+
+		<p><strong>Default CLI User:</strong> aidan</p>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td><span class="arrow" onclick="toggleDetails(this)"></span><b>empty</b></td>
+
+            <td>empty</td>
+
+            <td>192.168.0.6</td>
+
+            <td>None</td>
+
+            <td><a href="http://0.0.0.0" target="_blank"><button>Web ports closed</button></a></td>
+
+        </tr>
+
+        <tr class="details-content">
+
+            <td colspan="5">
+
+                <p><strong>Manufacturer:</strong> None</p>
+
+                <p><strong>RAM:</strong> None</p>
+
+                <p><strong>Storage:</strong> None</p>
+
+                <p><strong>CPU:</strong> None</p>
+
+		<p><strong>Default UI User:</strong> None</p>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td><span class="arrow" onclick="toggleDetails(this)"></span>portainer</td>
+
+            <td>pve-nuc (PVE) VM 100</td>
+
+            <td>192.168.0.7</td>
+
+            <td>9443, 3333, 12393, 8888, 22, 8000</td>
+
+            <td><a href="http://192.168.0.7:9443" target="_blank"><button>Portainer UI</button></a><a href="http://192.168.0.7:3333" target="_blank"><button>CTFd</button></a><a href="192.168.0.7:3333"><button>Word Mastermind</button></a><a href="192.168.0.7:12393"><button>whattocook</button></a></td>
+
+        </tr>
+
+        <tr class="details-content">
+
+            <td colspan="5">
+
+                <p><strong>Manufacturer:</strong> N/A</p>
+
+                <p><strong>RAM:</strong> 5.75 GB</p>
+
+                <p><strong>Storage:</strong> 28 GB SSD</p>
+
+                <p><strong>CPU:</strong> Virtualized 3 CPUs</p>
+
+		<p><strong>Default Portainer UI User:</strong> admin</p>
+
+            </td>
+
+        </tr>
+
+        <tr>
+
+            <td><span class="arrow" onclick="toggleDetails(this)"></span>basement</td>
+
+            <td>Netgear GS308E Switch</td>
+
+            <td>192.168.1.10</td>
+
+            <td>80</td>
+
+            <td><a href="http://192.168.1.10" target="_blank"><button>Admin UI</button></a></td>
+
+        </tr>
+
+        <tr class="details-content">
+
+            <td colspan="5">
+
+                <p><strong>Manufacturer:</strong> Netgear</p>
+
+                <p><strong>RAM:</strong> 128 MB</p>
+
+                <p><strong>Storage:</strong> 128 MB</p>
+
+                <p><strong>CPU:</strong> Custom ASIC</p>
+
+		<p><strong>Default UI User:</strong> admin</p>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+
+    <script>
+
+        function toggleDetails(element) {
+
+            const detailsRow = element.parentElement.parentElement.nextElementSibling;
+
+            const arrow = element;
+
+
+            if (detailsRow.style.display === "table-row") {
+
+                detailsRow.style.display = "none";
+
+                arrow.classList.remove("down");
+
+            } else {
+
+                detailsRow.style.display = "table-row";
+
+                arrow.classList.add("down");
+
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
