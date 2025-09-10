@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chromebook Tech Support Ticket</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h2>Chromebook Tech Support Ticket</h2>
+    <form id="supportForm">
+      <label for="problem">Problem:</label>
+      <select id="problem" name="problem" required>
+        <option value="" disabled selected>Select a problem</option>
+        <option value="screen">Screen not working</option>
+        <option value="battery">Battery issue</option>
+        <option value="keyboard">Keyboard not working</option>
+        <option value="wifi">WiFi connectivity</option>
+        <option value="login">Can’t log in</option>
+        <option value="other">Other</option>
+      </select>
+
+      <div id="secondary-container"></div>
+
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required pattern="[0-9\-+\s()]*">
+
+      <label for="classOf">Class of:</label>
+      <input type="text" id="classOf" name="classOf">
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date">
+
+      <label for="schoolId">School ID #:</label>
+      <input type="text" id="schoolId" name="schoolId">
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+
+      <button type="submit">Submit Ticket</button>
+    </form>
+  </main>
+
+  <div id="chatbot-container">
+    <!-- You design logic; this is just the interface shell -->
+    <div id="chatbot-header">🤖 Chatbot</div>
+    <div id="chatbot-messages"></div>
+    <form id="chatbot-form">
+      <input type="text" id="chatbot-input" placeholder="Type a message..." autocomplete="off">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
