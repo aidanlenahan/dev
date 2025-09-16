@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+}
+.heading {
+	text-align: center;
+	background: #701e20;
+	color: white;
+}
+.timedate {
+	margin-left: 4px;
+	font-size: 25px;
+	color: #701e20;
+}
+.maroontext {
+	color: #701e20;
+}
+.bigbuc {
+	max-width: 650px;
+	height: auto
+}
+.leftmain {
+	margin-left: 70px;
+}
