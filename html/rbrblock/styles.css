@@ -11,6 +11,10 @@ body {
 	font-size: 25px;
 	color: #701e20;
 }
+.aParent div {
+	float: left;
+	clear: none; 
+}
 .maroontext {
 	color: #701e20;
 }
@@ -19,5 +23,8 @@ body {
 	height: auto
 }
 .leftmain {
+	margin-left: 70px;
+}
+.rightmain {
 	margin-left: 70px;
 }
